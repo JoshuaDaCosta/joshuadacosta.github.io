@@ -1,0 +1,53 @@
+
+# Lista de animações do AOS (Animate On Scroll)
+
+## Fade (desaparecer/aparecer)
+- fade
+- fade-up
+- fade-down
+- fade-left
+- fade-right
+- fade-up-right
+- fade-up-left
+- fade-down-right
+- fade-down-left
+
+## Flip (virar)
+- flip-up
+- flip-down
+- flip-left
+- flip-right
+
+## Slide (deslizar)
+- slide-up
+- slide-down
+- slide-left
+- slide-right
+
+## Zoom
+- zoom-in
+- zoom-in-up
+- zoom-in-down
+- zoom-in-left
+- zoom-in-right
+- zoom-out
+- zoom-out-up
+- zoom-out-down
+- zoom-out-left
+- zoom-out-right
+
+----------------------------------
+# Configurações Extras
+
+- data-aos-delay="300" → atraso antes de começar (em ms)
+- data-aos-duration="1500" → duração da animação (em ms)
+- data-aos-offset="200" → distância de scroll antes de disparar
+- data-aos-easing="ease-in-out" → tipo de easing (pode ser linear, ease, ease-in, ease-out, etc)
+- data-aos-once="true" → anima só uma vez (não repete no scroll)
+
+----------------------------------
+# Exemplo prático:
+
+<div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500">
+  Olá mundo animado!
+</div>
