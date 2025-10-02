@@ -7,7 +7,11 @@
     <!-- CSS do AOS -->
     
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+    <!-- google material -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+
     <!-- favicon -->
      
     <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-icon-57x57.png">
@@ -28,7 +32,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Joshua da Costa | Portfólio</title>
+    <title>Joshua Da Costa | Portfólio</title>
     <meta name="description" content="Portfólio de Joshua da Costa - Programador, desenvolvedor de apps e sites, especialista em redes e telecomunicações.">
     <meta name="keywords" content="Joshua da Costa, portfólio, programador, desenvolvedor web, redes, telecomunicações, apps, sites, Angola">
     <meta name="author" content="Joshua da Costa">
@@ -56,14 +60,16 @@
             
             </ul>
             <ol>
-                 <h3>dropdow</h3>
+                 <h3 id="dropdown" >...</h3>
                  <ul>
+                     
                     <li><a href="#inicio">início</a></li>
                     <li><a href="#sobre">sobre</a></li>
                     <li><a href="#habilidades">habilidades</a></li>
                     <li><a href="#experiencias">experiências</a></li>
                     <li><a href="#projectos">projectos</a></li>
                     <li><a href="#contactos">contactos</a></li>
+                    <h3 id="dropdownx" >x</h3>
                     
                 
 
@@ -75,7 +81,8 @@
     
 </header>
 <main>
-    <section id="inicio" data-aos="fade">
+    <!--   -->
+    <section id="inicio" data-aos="fade-down" >
         <img src="static/img/logo (2).jpg" alt="foto do logotipo do joshua da costa">
         
         <img src="static/img/logo (4).jpg" alt="foto do logotipo do joshua da costa">     
@@ -83,13 +90,13 @@
             <div class="section-info">
                 <div id="parte-info">
                     <h1>
-                        olá, eu sou o <span>joshua da costa</span>
+                        olá, sou o <br> <span>joshua dacosta</span>
                     </h1>
                     <h2>
                         Desenvolvedor Web
                     </h2>
                     <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dignissimos eveniet minus et ut eius eligendi optio quod. Inventore adipisci illo, in eligendi temporibus veniam est commodi placeat ipsa tenetur!
+                        Apaixonado por tecnologia, programo não só por profissão, mas como uma forma de mudar o mundo.
                     </h3>
                     <div class="botoes">
                         <a href="#contactos">
@@ -101,14 +108,14 @@
                     </div>
                 </div>
                 <div id="parte-foto">
-                    <img src="static/img/joshua.jpg" alt="foto de joshua da costa">
+                    <img src="static/img/joshua_foto (1).png" alt="foto de joshua da costa">
                 </div>
             </div>
             <div class="section-oval">
 
                 <img src="static/img/forma-oval.svg" alt="foto de uma forma">
-                <i>
-                    “Posso todas as coisas naquele que me fortalece.”</i>
+                <p>
+                    “Posso todas as coisas naquele que me fortalece.”</p>
             </div>
         </article>
 
@@ -120,10 +127,9 @@
         <div class="parte-quemsou">
             <h3>quem sou eu?</h3>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam illo maiores placeat quibusdam esse ea, voluptate explicabo excepturi laboriosam ipsum nemo voluptatem possimus in deserunt odit non facere praesentium!
-                Neque excepturi alias, perspiciatis aliquam, labore repellendus odio, quia quos aut temporibus natus maiores accusamus quas sunt quibusdam dignissimos. Cumque, impedit? Repellendus nisi minus neque eveniet exercitationem voluptatum consequatur illum.
-                Itaque repellendus, cupiditate assumenda consequuntur maiores amet dolore pariatur, modi accusamus dignissimos aut maxime. Officiis repellendus in iusto ab esse aliquid rerum? Praesentium iste voluptatum inventore, atque nemo eaque consequuntur.
-                Consequuntur in dolor officiis voluptatem vitae nihil, culpa quaerat aliquid maiores quae iste modi ex esse quod ipsum libero. Molestias amet veritatis, inventore error a voluptas eum facere ipsa! Quisquam!
+                Sou Joshua da Costa, estudante de TI e apaixonado por tecnologia. Atuo na criação de websites, apps e soluções digitais, sempre com foco em inovação e impacto real. Além da programação, sou judoca e acredito no equilíbrio entre disciplina, fé e visão de futuro. <br> <br>
+                Acredito que tecnologia não é só código, mas uma forma de transformar realidades. O meu objetivo é desenvolver soluções digitais que facilitem a vida das pessoas, unindo criatividade, inovação e sustentabilidade. Vejo-me como parte de uma geração que vai construir negócios de impacto global. <br> <br>
+                Minha missão é criar negócios e tecnologias que conectem pessoas, melhorem processos e abram caminho para um futuro mais inteligente e acessível. Estou sempre em busca de desafios que me façam crescer como programador e empreendedor.
                 
             </p>
             <div class="parte-quemsou-cont">
@@ -179,23 +185,20 @@
 
                 <i><img src="static/img/Source Code.png" alt="icone de desenvolvimento"></i>
                 <h5>desenvolvimento web</h5>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam iste nisi esse assumenda possimus maiores ea pariatur nihil consectetur, doloribus sapiente odit! Pariatur iure error optio modi recusandae temporibus nisi!
-                Nobis, quisquam explicabo cumque, similique quo cum, eaque minima deleniti suscipit veniam dolor. Rerum laborum velit ad blanditiis doloribus quisquam consequatur! Consequatur natus expedita consequuntur excepturi, id illum officia. Quas.
+                <p>Venho aprendendo desenvolvimento web há 1 ano e meio, explorando desde a criação de websites até aplicações mais completas. Nesse tempo já adquiri experiência prática em HTML, CSS, Python e frameworks que me permitem transformar ideias em projetos reais. O meu objetivo é evoluir para um nível profissional onde consigo não apenas desenvolver, mas também criar soluções digitais escaláveis e seguras, sempre com foco em usabilidade e impacto.
                 </p>
             </div>
             <div class="areas">
                 <img id="spiral2" src="static/img/Spiral 2.png" alt="">
                 <i><img src="static/img/Source Code.png" alt="icone de desenvolvimento"></i>
-                <h5>desenvolvimento web</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, illo quaerat molestias perspiciatis quidem eius! Nesciunt animi culpa, iusto totam odio possimus pariatur officiis non similique maiores iste perspiciatis! Distinctio.
-                Qui, nemo aspernatur praesentium explicabo debitis nihil at voluptate magni deserunt iusto vitae porro autem fugiat est dicta nobis commodi in placeat laborum reiciendis, unde modi vel illo. Officiis, molestiae?</p>
+                <h5>Automação (Web & Desktop)</h5>
+                <p>Outra área que me atrai é a automação. Acredito que o futuro do trabalho está em simplificar processos e libertar tempo das pessoas. Por isso, tenho estudado automação web e desktop, criando ferramentas que executam tarefas repetitivas de forma rápida e eficiente. Vejo a automação como uma ponte entre a produtividade e a inovação, e pretendo investir cada vez mais nessa frente.</p>
             </div>
             <div class="areas">
                 <img id="spiral1" src="static/img/Spiral 1.png" alt="">
                 <i><img src="static/img/Source Code.png" alt="icone de desenvolvimento"></i>
-                <h5>desenvolvimento web</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perferendis quasi error, cumque recusandae a voluptatibus dolorum laudantium dignissimos sapiente, tenetur qui! Corporis quibusdam corrupti consequatur harum veritatis quas tenetur?
-                Hic sapiente dignissimos provident tempora dolorem aliquid deleniti assumenda ullam minima deserunt molestiae, modi consequuntur. Numquam aliquid totam ab at fugiat atque suscipit sequi quaerat non perspiciatis doloremque, aperiam inventore.</p>
+                <h5>Criptografia, Redes e Segurança</h5>
+                <p>A segurança digital sempre me chamou atenção. Ainda estou a dar os primeiros passos na área de criptografia, mas tenho grande interesse em aprofundar-me e chegar ao nível hacker ético, dominando técnicas para proteger sistemas e dados. Quero também consolidar conexões fortes com redes e telecomunicações, unindo o meu conhecimento de TI à segurança, para criar soluções que possam resistir a ataques e manter informações protegidas.</p>
             </div>
             
         </div>
@@ -304,8 +307,8 @@
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
                             <h4>desenvolvimento web</h4>
-                            <h5>loading page | mambobeat | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.</p>
+                            <h5>Projeto institucional | IMAG-V | 2023-2024</h5>
+                            <p>Participei num projeto académico chamado IMAG-V, desenvolvido na própria escola. A experiência permitiu-me aplicar conceitos de programação e gestão em ambiente real, entendendo melhor como estruturar e apresentar soluções digitais.</p>
                         </div>
                     </div>
 
@@ -313,8 +316,8 @@
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
                             <h4>desenvolvimento web</h4>
-                            <h5>loading page | reidente | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.</p>
+                            <h5>Projeto PESSOAL | Chat IMAG | 2022-2023</h5>
+                            <p>Criei uma loading page para o projeto Mambobeat, voltado ao mercado de beatmakers e música digital. Apesar de ser uma página inicial simples, foi um passo importante para trabalhar design, identidade visual e performance.</p>
                         </div>
                     </div>
 
@@ -322,8 +325,8 @@
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
                             <h4>desenvolvimento web</h4>
-                            <h5>sistema de gestão | imag | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.</p>
+                            <h5>Projeto colaborativo | CHAT | 2023-2024</h5>
+                            <p>Em conjunto com um colega, desenvolvemos um chat exclusivo para os estudantes do IMAG-V, pensado para facilitar a comunicação interna. O projeto ajudou-me a praticar conceitos de programação web, lógica de comunicação em tempo real e trabalho em equipe.</p>
                         </div>
                     </div>
                     
@@ -343,10 +346,9 @@
                     <div class="parte-card">
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
-                            <h4>desenvolvimento web</h4>
-                            <h5>loading page | mambobeat | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel amet, illo minima alias quod aliquid incidunt voluptas adipisci nulla ipsum vero dolores assumenda. Pariatur tenetur fugit labore veritatis voluptatem!
+                            <h4>Certificações</h4>
+                            <h5>Desenvolvimento Web | autotidata | 1 ano e meio de prática</h5>
+                            <p>Experiência prática contínua em HTML, CSS, Python e frameworks, aplicada em projetos pessoais e académicos.
                             </p>
                         </div>
                     </div>
@@ -354,18 +356,18 @@
                     <div class="parte-card">
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
-                            <h4>desenvolvimento web</h4>
-                            <h5>loading page | reidente | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.</p>
+                            <h4>Formação Académica</h4>
+                            <h5>Instituto Médio de Administração e Gestão de Viana (IMAG-V) | Instituto | 2022-2023</h5>
+                            <p>Formação em gestão e TI – concluído.</p>
                         </div>
                     </div>
 
                     <div class="parte-card">
                         <img src="static/img/Line 3.svg" >
                         <div class="parte-conteudo">
-                            <h4>desenvolvimento web</h4>
-                            <h5>sistema de gestão | imag | 2022-2023</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit corporis dolorum harum, rerum tempore error id dicta exercitationem culpa unde totam necessitatibus. Aut, quam hic repellendus nulla vero vel.</p>
+                            <h4>Formação Académica</h4>
+                            <h5>FAU – Faculdade (em andamento) | Instituto | em andamento</h5>
+                            <p>Curso superior (foco em TI e telecomunicações).</p>
                         </div>
                     </div>
                     
@@ -382,154 +384,158 @@
         <h2>meus  <span>projectos
         </span></h2>
         <div class="container-pro">
+            <!-- KIXIKILA -->
             <div id="contentor">
                 <img src="/static/img/Coin Wallet.png" >
                 <div id="capa">
                     <div class="conteudo-pro-contentor">
                         <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
+                        <p>O Kixikila é um projeto em desenvolvimento que simula um sistema financeiro baseado na prática cultural angolana. Atualmente já implementa funções de debitar, creditar, transferir e consultar contas, rodando totalmente no terminal. Ainda não possui interface gráfica, mas serve como base sólida para evoluir para aplicações web ou desktop no futuro.</p>
                         <div class="button-pro-conteudo">
                             <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
+                            <p>terminal</p>
                             
                         </div>
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
+                        <ul class="link-pro">
+                            <!-- <a href="#"> <span class="material-symbols-outlined">share_windows</span>demo</a> -->
+                            <a href="https://github.com/JoshuaDaCosta/KIXIKILA/blob/main/README.md" target="_blank"><span class="material-symbols-outlined">folder_code</span> codigo</a>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <!-- VOTO -->
             <div id="contentor">
                 <img src="/static/img/Coin Wallet.png" >
                 <div id="capa">
                     <div class="conteudo-pro-contentor">
-                        <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
+                        <h3>voto</h3>
+                        <p>O projeto Voto é um sistema de votação em desenvolvimento, implementado em Python com SQL para armazenamento de dados. Atualmente funciona totalmente no terminal, sem interface gráfica, e permite registrar eleitores, registrar votos e consultar resultados. O projeto serviu para praticar lógica de programação, manipulação de bancos de dados e estruturação de sistemas simples de gestão de informações.</p>
                         <div class="button-pro-conteudo">
                             <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
+                            <p>terminal</p>
+                            <p>sql</p>
                             
                         </div>
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
+                        <ul class="link-pro"> 
+                            <!-- <a href="#"><span class="material-symbols-outlined">share_windows</span>demo</a> -->
+<a href="https://github.com/JoshuaDaCosta/VOTO/blob/main/README.md" target="_blank"><span class="material-symbols-outlined">
+folder_code
+</span>codigo</a></ul>
                     </div>
                 </div>
             </div>
+            <!-- REIDENTE -->
             <div id="contentor">
                 <img src="/static/img/Coin Wallet.png" >
                 <div id="capa">
                     <div class="conteudo-pro-contentor">
-                        <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
+                        <h3>REIDENTE</h3>
+                        <p>O projeto Clínica Dentária é uma página inicial em desenvolvimento, atualmente consistindo apenas em uma loading page. O objetivo é criar um site profissional para clínicas dentárias, praticando design, animações e layout web. Mesmo sendo um MVP visual, já serviu para explorar técnicas de front-end e experiência do usuário.</p>
                         <div class="button-pro-conteudo">
-                            <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>javascript</p>
                             
                         </div>
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
+                        <ul class="link-pro"> 
+                            <a href="https://joshuadacosta.github.io/REIDENTE/" target="_blank"><span class="material-symbols-outlined">share_windows</span>demo</a>
+<a href="https://github.com/JoshuaDaCosta/REIDENTE/blob/main/README.md" target="_blank"><span class="material-symbols-outlined">
+folder_code
+</span>codigo</a></ul>
                     </div>
                 </div>
             </div>
-            <div id="contentor">
+            <!-- MAMBOBEAT -->
+             <div id="contentor">
                 <img src="/static/img/Coin Wallet.png" >
                 <div id="capa">
                     <div class="conteudo-pro-contentor">
-                        <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
+                        <h3>MAMBOBEAT</h3>
+                        <p>O projeto Mambobeat é uma página inicial em desenvolvimento, consistindo atualmente apenas em uma loading page. Ele serviu para praticar design de front-end, animações e layout web, e será a base para uma plataforma de vitrine e venda de beats para beatmakers. Mesmo sendo apenas um MVP visual, permitiu explorar conceitos de experiência do usuário e organização de elementos na página.</p>
                         <div class="button-pro-conteudo">
-                            <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>javascript</p>
                             
                         </div>
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
+                        <ul class="link-pro"> 
+                            <a href="https://joshuadacosta.github.io/MAMBOBEAT/templates/MamboBeat.html" target="_blank"><span class="material-symbols-outlined">share_windows</span>demo</a>
+<a href="https://github.com/JoshuaDaCosta/Mambobeat/blob/main/README.md" target="_blank"><span class="material-symbols-outlined">
+folder_code
+</span>codigo</a></ul>
                     </div>
                 </div>
             </div>
-            <div id="contentor">
-                <img src="/static/img/Coin Wallet.png" >
-                <div id="capa">
-                    <div class="conteudo-pro-contentor">
-                        <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
-                        <div class="button-pro-conteudo">
-                            <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
-                            
-                        </div>
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
-                    </div>
-                </div>
-            </div>
-            <div id="contentor">
-                <img src="/static/img/Coin Wallet.png" >
-                <div id="capa">
-                    <div class="conteudo-pro-contentor">
-                        <h3>kixikila</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquam modi minima! Eos ea dolorem magni odio quas architecto illum amet atque, maxime nam reiciendis dolorum quasi delectus. Ratione, recusandae.</p>
-                        <div class="button-pro-conteudo">
-                            <p>python</p>
-                            <p>python</p>
-                            <p>python</p>
-                            
-                        </div>
-                        
-                        <ul class="link-pro"><a href="#">demo</a><a href="#">codigo</a></ul>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </section>
     
 </main> 
+<footer id="contactos">
+    <section>
+        <h2>entre em <span> contacto </span></h2>
+
+        <p>Tem um projecto em mente ou queres conversar sobre oportunidades? <span>Entre em contacto comigo!</span></p>
+
+        <article>
+            <div class="partes">
+                <div class="social">
+                
+                    <!-- email -->
+                    <div class="elementos-info">
+                        <img src="static/img/Email.png" alt="">
+                        <div class="info">
+                            <h4>email</h4>
+                            <h5>joshuacosta120@gmail.com</h5>
+                        </div>
+                    </div>
+                    <!-- telf -->
+                    <div class="elementos-info">
+                        <img src="static/img/Phone.png" alt="">
+                        <div class="info">
+                            <h4>telefone</h4>
+                            <h5>(+244) 921-186-206</h5>
+                        </div>
+                    </div>
+                    <!-- localização -->
+                    <div class="elementos-info">
+                        <img src="static/img/Place Marker.png" alt="">
+                        <div class="info">
+                            <h4>localização</h4>
+                            <h5>Angola - Luanda</h5>
+                        </div>
+                    </div>
+                </div>
+                <ul class="link-social-contactos">
+                    <a href="#" class="links-a"><img src="static/img/GitHub.png" alt=""></a>
+                    <a href="#" class="links-a"><img src="static/img/Instagram.png" alt=""></a>
+                    <a href="#" class="links-a"><img src="static/img/LinkedIn 2.png" alt=""></a>
+                    <a href="#" class="links-a"><img src="static/img/WhatsApp.png" alt=""></a>
+                    <a href="#" class="links-a"><img src="static/img/Close.png" alt=""></a>
+                </ul>
+                <span class="texto-b">Obrigado por passar por aqui <br> 
+                    “O Senhor te abençoe e te guarde.”
+                </span>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </div>
+            <div class="partes">
+                
+            </div>
+        </article>
+        
+    </section>
+</footer>
 
 
 <script src="../static/js/index.js"></script>
-
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-   <script>
+<script>
     AOS.init({
-      duration: 2000, // tempo da animação
-      offset: 200,    // distância antes de animar
-      once: false      // só anima uma vez
+    duration: 2000, // tempo da animação
+    offset: 200,    // distância antes de animar
+    once: false      // só anima uma vez
     });
-  </script>
+</script>
+
 </body>
 </html>
