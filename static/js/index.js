@@ -1,3 +1,6 @@
+alert("Este site ainda em desenvolvimento, aguarda novas actualizações!")
+
+
 window.onload = () => {
     window.scrollTo(0, 0);
   };
